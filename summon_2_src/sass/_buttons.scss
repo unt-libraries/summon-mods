@@ -1,0 +1,43 @@
+.Availability {
+  width: 420px !important;
+}
+.contentType div {
+  float: left;
+}
+.contentType span {
+  float: left !important;
+}
+.availability {
+  background: url("https://www.library.unt.edu/sites/default/files/images/UI/find-it-round.png") no-repeat;
+  padding-bottom: 5px;
+}
+a.availabilityLink {
+  margin-left: 5px;
+  opacity: 0;
+}
+.togglePreview {
+  float: left;
+  display: inline;
+  margin: 0 10px 0 0;
+}
+.unt-rbl {
+  margin: 0 10px;
+  float: left;
+}
+.unt-rbl a {
+  font-size: 11px;
+  padding: 2px;
+  background-color: #FAFAD2;
+  border: 1px solid #999;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.unt-rbl a:hover {
+  text-decoration: none;
+}
+.unt-more-sources {
+  font-size: 13px;
+  float: left;
+}
