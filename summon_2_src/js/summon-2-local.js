@@ -117,7 +117,7 @@ angular.module('summonApp.directives').directive("documentSummary", function () 
 // Load fancybox with jQuery
 jQuery(function () {
     jQuery('head').append(jQuery('<link rel="stylesheet" type="text/css" />').attr('href', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css'));
-    jQuery("head").append('<link href="https://ui.library.unt.edu/summon-hack/summon-2-styles-local.css?v=1" media="all" rel="stylesheet" type="text/css" />');
+    jQuery("head").append('<link href="https://ui.library.unt.edu/summon-hack/summon-2-styles-local.css?v=2" media="all" rel="stylesheet" type="text/css" />');
     jQuery.ajax({
         url: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js',
         dataType: 'script',
